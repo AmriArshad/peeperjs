@@ -4,7 +4,7 @@ An open-source gaze tracking prototype for the web with a focus on extendability
 ## Technologies
 Peeper.js is written completely in JavaScript for easy integration with websites. We also used the following libraries to aid in face tracking and image processing respectfully.
 
-### [Faceapi.js](https://justadudewhohacks.github.io/face-api.js/docs/index.html)
+### [Faceapi.js](https://github.com/justadudewhohacks/face-api.js/)
 AI-powered Face Detection & Rotation Tracking, Face Description & Recognition, Age & Gender & Emotion Prediction for Browser and NodeJS using TensorFlow/JS
 
 ### [OpenCV](https://opencv.org/)
