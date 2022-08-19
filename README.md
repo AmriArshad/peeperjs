@@ -21,6 +21,8 @@ OpenCV (Open Source Computer Vision Library) is an open source computer vision a
 
 Clone the repo and navigate to the "example" folder.
 
+Or download the latest example.zip release from [here](https://github.com/AmriArshad/peeperjs/releases).
+
 ```shell
 $ git clone https://github.com/uoa-compsci399-s1-2022/web-gaze-tracker.git
 $ cd web-gaze-tracker/example
