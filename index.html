@@ -27,10 +27,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#title">Home</a>
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
                     <a class="nav-link" href="example/example.html">Example</a>
                     <a class="nav-link" href="documentation.html">Documentation</a>
-                    <a class="nav-link" href="https://github.com/uoa-compsci399-s1-2022/web-gaze-tracker">Download</a>
+                    <a class="nav-link" href="https://github.com/amriarshad/peeperjs">Download</a>
                     <a class="nav-link" href="#team">Contact</a>
                 </div>
             </div>
@@ -40,7 +40,7 @@
     <section id="title">
         <div class="container">
             <h1 class="display-2 text-center">Peeper.js</h1>
-            <h3 class="text-center">Lightweight Javascript Gaze Tracker Library</h3>
+            <h3 class="text-center">A Lightweight Gaze Tracker Prototype</h3>
         </div>
     </section>
 
@@ -50,11 +50,11 @@
                 <div class="col-sm-5">
                     </br>
                     <p>Gaze tracking directly in the browser</p>
-                    <p>Use any average 720p webcam</p>
+                    <p>Use any standard webcam</p>
                     <p>9 point calibration system</p>
                     <p>Coded in vanilla JavaScript</p>
                     <p>Open-Source and Developer friendly documentation</p>
-                    <p>Built by Computer Science students at The University of Auckland</p>
+                    <p>Built by Computer Science students at The University of Auckland in 12 weeks</p>
                 </div>
                 <div class="col-sm-7">
                     <div class="embed-responsive embed-responsive-16by9" align="center">
@@ -64,6 +64,21 @@
                     </div>
                 </div>
             </div>
+            <hr>
+        </div>
+    </section>
+
+    <section id="getting-started">
+        <div class="container">
+            <h2>Getting Started</h2>
+            <p>Peeper.js uses OpenCV 4.5.0 and Face-api 0.22.2 with the Tiny Face Detector and 68 Point Face Landmark
+                Detection.</p>
+            <p>Download/clone the repo <a href="https://github.com/amriarshad/peeperjs">here</a>.</p>
+            <p>Navigate to the example folder. This folder contains the example HTML page, required modules/libraries, a
+                peeper.js build file and a main.js file which calls relevant functions in the correct order. This folder
+                is independent of the other files in the repo and can be moved to your desired location.
+            </p>
+            <p>From here you can simply run a live server to view the example page in your browser.</p>
             <hr>
         </div>
     </section>
@@ -86,9 +101,25 @@
         </div>
     </section>
 
+    <section id="disclaimers">
+        <div class="container">
+            <h2>Disclaimers</h2>
+            <p>This project was coded in under 12 weeks by undergraduate students of The University of Auckland.
+                Although we managed to create a viable prototype in the eyes of our client, there are a few limitations
+                of peeper.js. Some of these include:</p>
+            <ul>
+                <li>An unstable gaze tracking graphic due to our direct mapping algorithm</li>
+                <li>Limited pupil detection with glasses</li>
+            </ul>
+            <hr>
+        </div>
+    </section>
+
     <section id="acknowledgement">
         <div class="container">
             <h2>Acknowledgements</h2>
+            <p>NOTE: This project is a fork of the <a
+                    href="https://github.com/uoa-compsci399-s1-2022/web-gaze-tracker">original</a></p>
             <p>
                 Peeper.js was developed by the students from the University of Auckland in the context of a capstone
                 project with the aim of creating an open-source gaze-tracking library. The project task was proposed by

@@ -1,11 +1,5 @@
-# Peeper.js - webcam eye tracking
-### An open-source Javascript library to enable the control of your mouse movements, through your computer's webcam, using only your eyes gaze.
-
-## Project Management
-In order to manage our project under scrum, we used [Jira](https://www.atlassian.com/software/jira). Our board can be found [here.](https://399team21.atlassian.net/ "Project Management tool")
-
-## Project Description
-An open-source gaze tracking library for the web with a focus on extendability of the code and a simple architecture.
+# Peeper.js - webcam gaze tracking
+An open-source gaze tracking prototype for the web with a focus on extendability of the code and a simple architecture. This project was managed with Jira under the Scrum framework.
 
 ## Technologies
 Peeper.js is written completely in JavaScript for easy integration with websites. We also used the following libraries to aid in face tracking and image processing respectfully.
@@ -25,7 +19,7 @@ OpenCV (Open Source Computer Vision Library) is an open source computer vision a
 	- Tiny Face Detector
 	- 68 Point Face Landmark Detection
 
-Clone or download the repo and navigate to the "example" folder.
+Clone the repo and navigate to the "example" folder.
 
 ```shell
 $ git clone https://github.com/uoa-compsci399-s1-2022/web-gaze-tracker.git
@@ -44,17 +38,6 @@ $ http-server -p 5000
 ```
 Now navigate to http://127.0.0.1:5000/example.html to access the example page locally.
 
-If you wish to visit our deployed example page, you can do so with the link below.
-
-## [Website](https://uoa-compsci399-s1-2022.github.io/web-gaze-tracker/)
-[Documentation](https://uoa-compsci399-s1-2022.github.io/web-gaze-tracker/documentation.html)
-
-[Example](https://uoa-compsci399-s1-2022.github.io/web-gaze-tracker/example/example.html)
-
-### What are some of the features you hope to implement in the future?
-- More accurate calibration/mapping algorithm
-- Image filtering via settings menu
-- Custom calibration points (for easy customisation)
 
 ## Credits
 Client: Dr. Gerald Weber
